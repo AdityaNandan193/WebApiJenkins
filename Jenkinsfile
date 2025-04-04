@@ -2,8 +2,9 @@ pipeline {
     agent any
     environment {
         AZURE_CREDENTIALS_ID = 'jenkins-azure-sp'
-        RESOURCE_GROUP = 'first_web_app'
-        APP_SERVICE_NAME = 'myFirstProject'
+        RESOURCE_GROUP = 'my-rg-dotnet'
+        APP_SERVICE_NAME = '
+my-dotnet-webapp-001'
     }
 
     stages {
